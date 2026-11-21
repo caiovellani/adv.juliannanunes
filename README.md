@@ -1,0 +1,10 @@
+# Site Dra. Julianna Nunes
+
+Landing page da Dra. Julianna Nunes, advogada previdenciária (OAB/RJ 258.890).
+HTML, CSS e JS puros, sem build: é só publicar a pasta (GitHub Pages, Vercel ou Netlify).
+
+- `index.html`: conteúdo
+- `styles.css`: cores da marca (bordô #741E3E, névoa #E5E6E3, dourado #B3915E → #EECB85), fontes Ametis + Montserrat
+- `assets/`: logos, monograma, fonte Ametis e imagens
+
+Pendências: fotos da Dra. Julianna (hero e "Sobre") e o texto de formação/trajetória.
