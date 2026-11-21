@@ -89,6 +89,17 @@ p { margin: 0; }
 .hero-areas a { display: inline-block; text-decoration: none; font-size: .88rem; color: var(--nevoa-suave); border: 1px solid var(--linha); border-radius: 999px; padding: .45rem 1rem; transition: border-color .2s, color .2s; }
 .hero-areas a:hover { border-color: var(--ouro-claro); color: var(--ouro-claro); }
 
+/* situação: três portas de entrada, cada uma abre o WhatsApp com a mensagem pronta */
+.situacao { background: var(--bordo-noite); padding: clamp(3.5rem, 8vw, 6rem) var(--pad); border-bottom: 1px solid var(--linha); }
+.situacao > * { max-width: var(--larg); margin-left: auto; margin-right: auto; }
+.situacao h2 { font-size: clamp(1.9rem, 3.6vw, 2.8rem); color: var(--nevoa); margin-bottom: 2rem; }
+.situacao-opcoes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--linha); border: 1px solid var(--linha); }
+.situacao-opcoes a { display: flex; flex-direction: column; gap: .6rem; padding: 1.8rem 1.6rem 2rem; background: var(--bordo-noite); text-decoration: none; transition: background-color .2s; }
+.situacao-opcoes a:hover { background: #4A1128; }
+.situacao-opcoes strong { font-family: var(--serif); font-weight: 400; font-size: 1.45rem; line-height: 1.2; color: var(--ouro-claro); }
+.situacao-opcoes span { font-size: .98rem; color: var(--nevoa-suave); }
+.situacao-nota { margin-top: 1.4rem; font-size: .95rem; color: var(--nevoa-suave); }
+
 /* ---------- seções base ---------- */
 .areas, .processo, .insta, .duvidas { padding: var(--sec) var(--pad); }
 .areas > *, .processo > *, .insta > *, .duvidas > * { max-width: var(--larg); margin-left: auto; margin-right: auto; }
@@ -144,7 +155,7 @@ p { margin: 0; }
 /* dúvidas */
 .duvidas { background: var(--bordo-noite); }
 .faq { max-width: var(--larg); }
-.faq summary, .faq details p { max-width: 52rem; }
+.faq details p { max-width: 52rem; }
 .faq details { border-bottom: 1px solid var(--linha); }
 .faq details:first-child { border-top: 1px solid var(--linha); }
 .faq summary { list-style: none; cursor: pointer; position: relative; padding: 1.6rem 3rem 1.6rem 0; font-weight: 500; font-size: 1.1rem; color: var(--nevoa); }
@@ -157,6 +168,21 @@ p { margin: 0; }
 }
 .faq details[open] summary::after { transform: rotate(45deg); }
 .faq details p { padding: 0 0 1.8rem; color: var(--nevoa-suave); max-width: 44rem; }
+
+.faq-grupo { font-family: var(--sans); font-size: .85rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ouro-claro); margin-bottom: .4rem; }
+.faq + .faq-grupo { margin-top: 3.5rem; }
+
+/* segurança: aviso contra golpes, com os canais oficiais */
+.seguranca { background: var(--bordo-noite); padding: 0 var(--pad) var(--sec); }
+.seguranca-caixa { max-width: var(--larg); margin: 0 auto; border: 1px solid var(--ouro-escuro); padding: clamp(2rem, 5vw, 3.5rem); }
+.seguranca h2 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); line-height: 1.12; color: var(--nevoa); max-width: 22ch; }
+.seguranca-caixa > p { margin-top: 1rem; max-width: 44rem; color: var(--nevoa-suave); }
+.canais { list-style: none; padding: 0; margin: 2rem 0; display: flex; flex-wrap: wrap; gap: 1rem 3rem; }
+.canais li { display: flex; flex-direction: column; font-size: 1.1rem; color: var(--nevoa); }
+.canais span { font-size: .8rem; color: var(--ouro-claro); }
+.regras { padding-left: 1.2rem; margin: 0; color: var(--nevoa-suave); max-width: 46rem; }
+.regras li + li { margin-top: .6rem; }
+.regras li::marker { color: var(--ouro-claro); }
 
 /* contato */
 .contato {
@@ -220,6 +246,8 @@ p { margin: 0; }
   .hero-areas { flex-wrap: nowrap; overflow-x: auto; margin-right: calc(-1 * var(--pad)); padding-right: var(--pad); scrollbar-width: none; }
   .hero-areas a { white-space: nowrap; }
 
+  .situacao-opcoes { grid-template-columns: 1fr; }
+  .canais { flex-direction: column; gap: 1rem; }
   .areas-lista { grid-template-columns: 1fr; }
   .passos { grid-template-columns: 1fr; gap: 0; }
   .passos li { display: grid; grid-template-columns: 3.6rem 1fr; column-gap: 1rem; padding: 1.6rem 0; }
