@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://advjuliannanunes.com/sitemap.xml
