@@ -142,7 +142,7 @@ p { margin: 0; }
   color: rgba(238, 203, 133, .8); font-size: .85rem; letter-spacing: .05em;
 }
 .foto-vazia img { width: 34%; }
-.sobre-foto > img { width: 100%; height: 100%; object-fit: cover; border-radius: 999px 999px 0 0; }
+.sobre-foto > img { position: relative; width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; border-radius: 999px 999px 0 0; }
 .sobre-texto h2 { font-size: clamp(2.1rem, 4.2vw, 3.4rem); line-height: 1.08; color: var(--bordo); margin-bottom: 1.6rem; }
 .sobre-texto p + p { margin-top: 1.1rem; }
 .sobre-texto .ph { font-style: italic; color: #7A6870; }
