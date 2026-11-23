@@ -41,7 +41,7 @@ p { margin: 0; }
 .skip:focus { left: 1rem; top: 1rem; }
 
 /* texto dourado em degradê: só em títulos grandes e números */
-.ouro { background: var(--ouro-degrade); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.ouro { background: var(--ouro-degrade); -webkit-background-clip: text; background-clip: text; color: transparent; padding: .12em 0 .18em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .filete { display: block; width: 56px; height: 1px; background: var(--ouro-degrade); margin-bottom: 1.6rem; }
 
 /* ---------- topo ---------- */
@@ -81,7 +81,7 @@ p { margin: 0; }
 }
 .hero-mono { position: absolute; width: min(62vw, 900px); right: -5vw; top: -6vh; opacity: .13; pointer-events: none; }
 .hero-conteudo { position: relative; width: 100%; max-width: var(--larg); margin: 0 auto; }
-.hero h1 { font-size: clamp(2.2rem, 6.2vw, 5.4rem); line-height: 1.04; max-width: 15ch; }
+.hero h1 { font-size: clamp(2.2rem, 6.2vw, 5.4rem); line-height: 1.16; max-width: 15ch; }
 .hero-sub { margin: 1.8rem 0 2.6rem; max-width: 34ch; font-size: clamp(1.05rem, 1.4vw, 1.2rem); color: var(--nevoa-suave); }
 .hero-local { display: flex; gap: .6rem; align-items: flex-start; margin-top: 1.6rem; font-size: .95rem; color: var(--nevoa-suave); max-width: 40ch; }
 .hero-local svg { width: 18px; flex: none; margin-top: .2rem; fill: var(--ouro-claro); }
@@ -116,14 +116,14 @@ p { margin: 0; }
 
 /* frase de transição */
 .frase { padding: clamp(4rem, 9vw, 7rem) var(--pad); background: var(--bordo-noite); text-align: center; border-top: 1px solid var(--linha); border-bottom: 1px solid var(--linha); }
-.frase p { font-family: var(--serif); font-size: clamp(1.8rem, 4vw, 3.2rem); line-height: 1.15; max-width: 24ch; margin: 0 auto; }
+.frase p { font-family: var(--serif); font-size: clamp(1.8rem, 4vw, 3.2rem); line-height: 1.25; max-width: 24ch; margin: 0 auto; }
 
 /* processo: sequência real, por isso numerado */
 .processo { background: var(--bordo-noite); padding-top: clamp(3rem, 6vw, 5rem); }
 .passos { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 2.4rem; }
 .passos li { border-top: 1px solid var(--linha); padding-top: 1.6rem; }
-.passo-n { display: block; font-family: var(--serif); font-size: 4rem; line-height: 1; margin-bottom: 1.2rem; }
-.passos h3 { font-size: 1.5rem; color: var(--nevoa); margin-bottom: .55rem; line-height: 1.2; }
+.passo-n { display: block; font-family: var(--serif); font-size: 4rem; line-height: 1.25; margin-bottom: .8rem; }
+.passos h3 { font-size: 1.5rem; color: var(--nevoa); margin-bottom: .8rem; line-height: 1.2; }
 .passos p { font-size: 1rem; color: var(--nevoa-suave); }
 
 /* sobre: única seção clara, para dar respiro */
@@ -194,7 +194,7 @@ p { margin: 0; }
 .contato-mono { position: absolute; width: 560px; left: -150px; bottom: -180px; opacity: .1; }
 .contato h2 { position: relative; font-size: clamp(2.2rem, 4.8vw, 3.8rem); line-height: 1.08; color: var(--nevoa); max-width: 18ch; margin: 0 auto; }
 .contato p { position: relative; margin-top: 1rem; color: var(--nevoa-suave); }
-.contato-tel { position: relative; display: inline-block; margin: 2.2rem 0 2.4rem; font-family: var(--serif); font-size: clamp(2.3rem, 6vw, 4rem); text-decoration: none; }
+.contato-tel { position: relative; display: inline-block; margin: 2rem 0 2.2rem; font-family: var(--serif); font-size: clamp(2.3rem, 6vw, 4rem); line-height: 1.3; text-decoration: none; }
 .contato-acoes { position: relative; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
 
 /* rodapé */
