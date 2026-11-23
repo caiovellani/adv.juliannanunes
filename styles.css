@@ -41,7 +41,8 @@ p { margin: 0; }
 .skip:focus { left: 1rem; top: 1rem; }
 
 /* texto dourado em degradê: só em títulos grandes e números */
-.ouro { background: var(--ouro-degrade); -webkit-background-clip: text; background-clip: text; color: transparent; padding: .12em 0 .18em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+/* dourado sólido no texto: o degradê recortado (background-clip) cortava letras no Windows */
+.ouro { color: #E2BD7B; }
 .filete { display: block; width: 56px; height: 1px; background: var(--ouro-degrade); margin-bottom: 1.6rem; }
 
 /* ---------- topo ---------- */
@@ -122,7 +123,7 @@ p { margin: 0; }
 .processo { background: var(--bordo-noite); padding-top: clamp(3rem, 6vw, 5rem); }
 .passos { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 2.4rem; }
 .passos li { border-top: 1px solid var(--linha); padding-top: 1.6rem; }
-.passo-n { display: block; font-family: var(--serif); font-size: 4rem; line-height: 1.25; margin-bottom: .8rem; }
+.passo-n { display: block; font-family: var(--serif); font-size: 4rem; line-height: 1.2; margin-bottom: .8rem; }
 .passos h3 { font-size: 1.5rem; color: var(--nevoa); margin-bottom: .8rem; line-height: 1.2; }
 .passos p { font-size: 1rem; color: var(--nevoa-suave); }
 
