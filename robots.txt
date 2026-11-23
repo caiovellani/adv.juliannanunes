@@ -1,5 +1,5 @@
-# Buscadores tradicionais e assistentes de IA são bem-vindos.
-# Cada empresa usa robôs separados para busca, para buscas feitas a pedido do usuário e para treino.
+# Buscadores tradicionais e assistentes de IA sao bem-vindos.
+# Cada empresa usa robos separados para busca, para buscas feitas a pedido do usuario e para treino.
 
 User-agent: *
 Allow: /
