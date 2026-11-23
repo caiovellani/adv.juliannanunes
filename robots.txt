@@ -1,4 +1,41 @@
+# Buscadores tradicionais e assistentes de IA são bem-vindos.
+# Cada empresa usa robôs separados para busca, para buscas feitas a pedido do usuário e para treino.
+
 User-agent: *
+Allow: /
+
+# OpenAI (ChatGPT)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Anthropic (Claude)
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google (Gemini) e Apple (Apple Intelligence)
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://advjuliannanunes.com/sitemap.xml

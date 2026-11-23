@@ -12,6 +12,7 @@
   <meta property="og:url" content="https://advjuliannanunes.com/">
   <meta property="og:image" content="https://advjuliannanunes.com/assets/img/og-capa.jpg">
   <meta property="og:locale" content="pt_BR">
+  <link rel="alternate" type="text/markdown" href="/llms.txt" title="Resumo para assistentes de IA">
   <link rel="canonical" href="https://advjuliannanunes.com/">
   <link rel="icon" type="image/png" href="assets/img/monograma_dourado.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +20,166 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Attorney","name":"Dra. Julianna Nunes","url":"https://advjuliannanunes.com/","description":"Advogada previdenciária","telephone":"+55-21-98283-7633","email":"juliannanunesadv@gmail.com","address":{"@type":"PostalAddress","addressRegion":"RJ","addressCountry":"BR"},"areaServed":"BR","sameAs":["https://instagram.com/adv.juliannanunes"]}
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://advjuliannanunes.com/#site",
+   "url": "https://advjuliannanunes.com/",
+   "name": "Dra. Julianna Nunes | Advogada previdenciária",
+   "inLanguage": "pt-BR"
+  },
+  {
+   "@type": [
+    "LegalService",
+    "Attorney"
+   ],
+   "@id": "https://advjuliannanunes.com/#escritorio",
+   "name": "Dra. Julianna Nunes, Advocacia Previdenciária",
+   "url": "https://advjuliannanunes.com/",
+   "image": "https://advjuliannanunes.com/assets/img/og-capa.jpg",
+   "logo": "https://advjuliannanunes.com/assets/img/monograma_dourado.png",
+   "description": "Advocacia previdenciária: benefício do INSS negado ou cortado, auxílio-doença, BPC/LOAS, aposentadorias, salário-maternidade, pensão por morte, revisões e planejamento previdenciário. Atendimento on-line para todo o Brasil e presencial no Rio de Janeiro.",
+   "telephone": "+55-21-98283-7633",
+   "email": "juliannanunesadv@gmail.com",
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Rio de Janeiro",
+    "addressRegion": "RJ",
+    "addressCountry": "BR"
+   },
+   "areaServed": [
+    {
+     "@type": "Country",
+     "name": "Brasil"
+    },
+    {
+     "@type": "City",
+     "name": "Rio de Janeiro"
+    }
+   ],
+   "availableLanguage": "pt-BR",
+   "knowsAbout": [
+    "Direito Previdenciário",
+    "INSS",
+    "benefício negado pelo INSS",
+    "recurso administrativo INSS",
+    "auxílio-doença",
+    "auxílio por incapacidade temporária",
+    "BPC/LOAS",
+    "aposentadoria",
+    "regras de transição da aposentadoria",
+    "salário-maternidade",
+    "pensão por morte",
+    "revisão de benefício",
+    "planejamento previdenciário",
+    "CNIS"
+   ],
+   "founder": {
+    "@id": "https://advjuliannanunes.com/#julianna"
+   },
+   "sameAs": [
+    "https://instagram.com/adv.juliannanunes"
+   ],
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "atendimento",
+    "telephone": "+55-21-98283-7633",
+    "availableLanguage": "pt-BR",
+    "areaServed": "BR"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://advjuliannanunes.com/#julianna",
+   "name": "Julianna Nunes",
+   "honorificPrefix": "Dra.",
+   "jobTitle": "Advogada previdenciária",
+   "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "OAB/RJ",
+    "value": "258.890"
+   },
+   "worksFor": {
+    "@id": "https://advjuliannanunes.com/#escritorio"
+   },
+   "sameAs": [
+    "https://instagram.com/adv.juliannanunes"
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://advjuliannanunes.com/#duvidas",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "O INSS negou meu benefício. O que eu faço agora?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Primeiro, descubra o motivo da negativa. Depois, há três caminhos possíveis: fazer um novo pedido com os documentos que faltaram, apresentar recurso ao próprio INSS ou entrar com ação na Justiça. A escolha depende do motivo e das provas do seu caso."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Qual é o prazo para recorrer de um benefício negado?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "O recurso administrativo deve ser apresentado em até 30 dias, contados da data em que você tomou conhecimento da decisão. É gratuito e pode ser feito pelo Meu INSS ou pela Central 135. Perdido esse prazo, ainda é possível fazer um novo pedido ou buscar a Justiça."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Como descubro por que meu benefício foi negado?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No site ou aplicativo Meu INSS, entre em \"Consultar pedidos\", encontre o seu pedido e abra os detalhes. Lá ficam a decisão e a carta com o motivo do indeferimento. Entre os motivos mais comuns estão a incapacidade não comprovada na perícia, renda acima do limite no BPC e tempo de contribuição insuficiente."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "É melhor fazer um novo pedido, recorrer ou entrar na Justiça?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Depende do motivo. Quando faltou um documento, um novo pedido costuma resolver, mas o benefício passa a contar da nova data. Quando o INSS avaliou mal as provas, o recurso ou a ação judicial podem garantir os valores desde o primeiro pedido. Por isso vale analisar o caso antes de escolher."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Preciso de advogado para recorrer?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Não é obrigatório: o próprio segurado pode apresentar o recurso. A orientação de uma advogada ajuda a entender o motivo da negativa, reunir as provas certas e escolher o caminho mais adequado para o seu caso."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Moro fora do Rio de Janeiro. Posso ser atendido?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sim. O atendimento é on-line para todo o Brasil: conversa pelo WhatsApp, envio de documentos por foto e assinatura pelo celular. Quem está no Rio de Janeiro também pode ser atendido presencialmente."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Como funcionam os honorários?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dependem do tipo de caso e do trabalho necessário. Você recebe a proposta por escrito, com o que está incluído, antes de decidir contratar."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Como sei que estou falando com a Dra. Julianna?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Os únicos canais oficiais são os desta página: WhatsApp (21) 98283-7633, e-mail juliannanunesadv@gmail.com e Instagram @adv.juliannanunes. Veja abaixo como se proteger de golpes."
+     }
+    }
+   ]
+  }
+ ]
+}
   </script>
 </head>
 <body>
