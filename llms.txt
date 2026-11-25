@@ -27,7 +27,21 @@ Site: https://advjuliannanunes.com/
 - **Pensão por morte**: Orientação à família sobre quem tem direito, como comprovar a união e como fazer o pedido.
 - **Benefício negado ou cortado**: Entendemos o motivo da negativa e avaliamos novo pedido, recurso administrativo ou ação judicial.
 - **Revisões**: Conferência do cálculo e dos períodos considerados pelo INSS no seu benefício.
-- **Planejamento previdenciário**: Um estudo do seu histórico para saber quando e como se aposentar com o melhor valor possível.
+- **Parecer e planejamento previdenciário**: Um retrato da sua situação no INSS hoje ou um estudo completo para saber quando e como se aposentar.
+
+## Parecer ou planejamento previdenciário?
+
+- **Parecer previdenciário (o presente):** mostra a situação no INSS hoje. Confere se os vínculos da carteira de trabalho aparecem no CNIS e contam corretamente, identifica pendências a corrigir e calcula tempo de contribuição e carência, verificando se já há direito a algum benefício.
+- **Planejamento previdenciário (o futuro):** inclui toda a análise do parecer e compara cenários a partir do valor que a pessoa gostaria de receber: quando poderá se aposentar, quanto precisará contribuir e o valor estimado da aposentadoria em cada cenário.
+
+O planejamento inclui:
+1. Análise dos documentos, do CNIS e do histórico de contribuições, com cálculo do tempo de contribuição e da carência.
+2. Atualização monetária dos salários de contribuição desde julho de 1994 e cálculo da média contributiva atual.
+3. Projeção das datas de aposentadoria pelas regras aplicáveis, incluindo as regras de transição.
+4. Simulação do valor inicial da aposentadoria com contribuições sobre o salário mínimo, a média contributiva atual e o teto do INSS.
+5. Cálculo das contribuições futuras em cada cenário e avaliação de complementar contribuições ou recolher períodos em atraso.
+6. Projeção do total a receber em cada cenário, com os 80 anos de idade como referência.
+7. Comparação entre custo das contribuições e valor estimado a receber, com estratégia de contribuição até a aposentadoria.
 
 ## Como funciona o atendimento
 
@@ -57,6 +71,10 @@ Depende do motivo. Quando faltou um documento, um novo pedido costuma resolver, 
 ### Preciso de advogado para recorrer?
 
 Não é obrigatório: o próprio segurado pode apresentar o recurso. A orientação de uma advogada ajuda a entender o motivo da negativa, reunir as provas certas e escolher o caminho mais adequado para o seu caso.
+
+### Qual é a diferença entre parecer e planejamento previdenciário?
+
+O parecer mostra a sua situação no INSS hoje: vínculos no CNIS, pendências, tempo de contribuição, carência e se você já tem direito a algum benefício. O planejamento inclui tudo isso e projeta o futuro: quando você poderá se aposentar, quanto precisará contribuir e o valor estimado da aposentadoria em cada cenário.
 
 ### Moro fora do Rio de Janeiro. Posso ser atendido?
 
